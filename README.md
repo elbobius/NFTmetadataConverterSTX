@@ -7,6 +7,13 @@ https://nft-inator.com/
 Generated json files will be ready for your smart contract on:  
 https://byzantion.xyz/tools/launchpad  
   
+# How to use it:  
+place the byzantionJSON.bat file in the directory with all your .josn files and execute it.  
+This can take a while.  
+If it is finished your should have a folder with the name "byzantionJSON" and all the .json file for byzantion in it.  
+  
+# How it works:  
+  
 The batch file checks if a folder named "byzantionJSON" exists in the directory it was started. If yes it asks if you want to delete the old folder.  
 If no folder with this name exists it will create one.  
 Then it searchs the folder it is started in for all .json files. If a line of one of those files contains "trait_type" or "value" it writes it into a json file with the same name but into to directory /byzantionJSON/  
